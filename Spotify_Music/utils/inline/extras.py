@@ -17,9 +17,7 @@ def close_markup(_):
     upl = InlineKeyboardMarkup(
         [
             [
-                 InlineKeyboardButton(
-                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/BRANDED_WORLD"
-            ),
+                 InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
                     callback_data="close",
