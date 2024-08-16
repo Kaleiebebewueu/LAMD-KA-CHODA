@@ -66,17 +66,11 @@ def queue_back_markup(_, CPLAY):
 def aq_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+         InlineKeyboardButton(text="• ʌᴅᴅ ᴍᴇ ɪɴ ʏσᴜʀ ɢʀσᴜᴘ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
-            InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/+8huyLCAdA6o0OWRl",
-            ),
+         InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
+         InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇs˼", url=f"https://t.me/ALL_SANATANI_BOT",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -110,12 +104,12 @@ def queuemarkup(_, vidid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
-            InlineKeyboardButton(
-                text="๏ ᴍᴏʀᴇ ๏",
-                url="https://t.me/+8huyLCAdA6o0OWRl",
-            ),
+         InlineKeyboardButton(text="• ʌᴅᴅ ᴍᴇ ɪɴ ʏσᴜʀ ɢʀσᴜᴘ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
+        [
+         InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
+         InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇs˼", url=f"https://t.me/ALL_SANATANI_BOT",),
+        ],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
-
     return buttons
