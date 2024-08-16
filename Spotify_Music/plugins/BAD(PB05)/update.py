@@ -9,21 +9,22 @@ from config import MUSIC_BOT_NAME
 @app.on_message(filters.command(["repo"]))
 async def start(client: Client, message: Message):
     await message.reply_video(
-        video=f"https://telegra.ph/file/bda2c51bd00c8f4710b04.mp4",
-        caption=f"❤️ ʜᴇʏ {message.from_user.mention}",
+        video=f"https://telegra.ph/file/9e853d2314c00932163cf.mp4",
+        caption=f"❖ ʜᴇʏ {message.from_user.mention} \n\n❖ ᴛᴇʀɪ ᴍᴀ ᴋɪ ᴄʜᴜᴛ",
         reply_markup=InlineKeyboardMarkup(
             [
                [
             InlineKeyboardButton(
-                text="☆ ᴏᴡɴᴇʀ 💗 ", url=f"https://t.me/ll_BAD_MUNDA_ll"
+                text="ɢʀᴏᴜᴘ", url=f"https://t.me/+Ckzm2ypQyIIzZTll"
             ),
+            
             InlineKeyboardButton(
-                text="☆ ꜱᴜᴘᴘᴏʀᴛ 💗", url=f"https://t.me/ll_BAD_MUNDA_ll/11"
+                text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/All_SANATANI_BOT"
             ),
-        ],
+                ],
                 [
                     InlineKeyboardButton(
-                        "✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                        "• ᴄʟᴏsᴇ •", callback_data="close"
                     )
                 ],
             ]
