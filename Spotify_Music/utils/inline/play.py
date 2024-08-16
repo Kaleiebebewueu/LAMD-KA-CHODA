@@ -60,17 +60,11 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+         InlineKeyboardButton(text="• ʌᴅᴅ ᴍᴇ ɪɴ ʏσᴜʀ ɢʀσᴜᴘ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
-       [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
-        InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+8huyLCAdA6o0OWRl"
-            ),
+        [
+         InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
+         InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇs˼", url=f"https://t.me/ALL_SANATANI_BOT",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -79,17 +73,11 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
 def stream_markup(_, videoid, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+         InlineKeyboardButton(text="• ʌᴅᴅ ᴍᴇ ɪɴ ʏσᴜʀ ɢʀσᴜᴘ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
-       [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
-        InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/+8huyLCAdA6o0OWRl"
-            ),
+        [
+         InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
+         InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇs˼", url=f"https://t.me/ALL_SANATANI_BOT",),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -220,21 +208,13 @@ def queue_markup(_, videoid, chat_id):
 def stream_markup2(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(
-                text=_["S_B_3"],
-                url=f"https://t.me/{app.username}?startgroup=true",
-            ),
+         InlineKeyboardButton(text="• ʌᴅᴅ ᴍᴇ ɪɴ ʏσᴜʀ ɢʀσᴜᴘ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+         InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
+         InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇs˼", url=f"https://t.me/ALL_SANATANI_BOT",),
         ],
-       [
-            InlineKeyboardButton(text="❤️‍🔥 ᴋɪɴɢ🌸", url="https://t.me/apna_gunjan"),
-        InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
@@ -272,15 +252,13 @@ def stream_markup_timer2(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+         InlineKeyboardButton(text="• ʌᴅᴅ ᴍᴇ ɪɴ ʏσᴜʀ ɢʀσᴜᴘ •", url=f"https://t.me/HIMANSHI_MUSIC_BOT?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
+         InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/+Ckzm2ypQyIIzZTll"),
+         InlineKeyboardButton(text="˹ᴜᴘᴅᴀᴛᴇs˼", url=f"https://t.me/ALL_SANATANI_BOT",),
         ],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
